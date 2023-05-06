@@ -1,13 +1,11 @@
 import AppBar from "@mui/material/AppBar";
-import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
-import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
-import Logo from "../../assets/Logo.svg";
+import logo from "../../assets/logo.svg";
+import { Link } from "react-router-dom";
 function Navbar() {
   return (
-      <AppBar position="static">
+      <AppBar position="static" sx={{ backgroundColor: "#fff", boxShadow: 0 }}>
         <Toolbar>
           <IconButton
             size="large"
@@ -15,12 +13,11 @@ function Navbar() {
             aria-label="menu"
             sx={{ mr: 2 }}
           >
-            <img src={Logo} alt="Logo" />
+            <Link to="/">
+            <img src={logo} alt="Logo" />
+            </Link>
           </IconButton>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            News
-          </Typography>
-          <Button color="inherit">Login</Button>
+          <Link to="/contact">Contact</Link> 
         </Toolbar>
       </AppBar>
   );
