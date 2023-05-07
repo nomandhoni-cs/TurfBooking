@@ -43,7 +43,7 @@ img{
 }
 /* Custom Css  */
 .heroBanner{
-  height: 300px;
+  height: 375px;
   background-image: url("./assets/heroBanner.webp");
   background-size: cover;
   background-repeat: no-repeat;

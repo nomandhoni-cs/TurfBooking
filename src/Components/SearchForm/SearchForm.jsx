@@ -21,14 +21,15 @@ const SearchForm = () => {
     <>
       <Box
         sx={{
-          width: "96%",
+          width: "80%",
           maxWidth: "600px",
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
-          margin: "auto",
-          marginTop: "7%",
+          marginBottom: "-80px",
+          marginLeft: "auto",
+          marginRight: "auto",
           boxShadow: "0px 46px 80px rgba(0, 0, 0, 0.07), 0px 10.2747px 17.869px rgba(0, 0, 0, 0.0417275), 0px 3.05905px 5.32008px rgba(0, 0, 0, 0.0282725)",
           padding: "20px",
           borderRadius: "10px",
