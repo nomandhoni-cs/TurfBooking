@@ -5,13 +5,12 @@ import logo from "../../assets/logo.svg";
 import { Link } from "react-router-dom";
 function Navbar() {
   return (
-      <AppBar position="static" sx={{ backgroundColor: "#fff", boxShadow: 0 }}>
+      <AppBar position="static" sx={{ backgroundColor: "#fff", boxShadow: 0, padding: "0" }}>
         <Toolbar>
           <IconButton
             size="large"
             edge="start"
             aria-label="menu"
-            sx={{ mr: 2 }}
           >
             <Link to="/">
             <img src={logo} alt="Logo" />

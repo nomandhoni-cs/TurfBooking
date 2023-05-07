@@ -1,9 +1,9 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
+} */
 
 .logo {
   height: 6em;
@@ -37,6 +37,21 @@
   padding: 2em;
 }
 
-.read-the-docs {
-  color: #888;
+
+img{
+  width: 100%;
+}
+/* Custom Css  */
+.heroBanner{
+  height: 300px;
+  background-image: url("./assets/heroBanner.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.tagline{
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+  padding-top: 100px;
 }
